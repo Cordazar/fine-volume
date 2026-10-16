@@ -1,0 +1,13 @@
+[package]
+name = "fine-volume"
+version = "0.1.0"
+license = "MIT"
+description = "Always use quarter volume steps on macOS"
+repository = "https://github.com/Cordazar/fine-volume"
+edition = "2024"
+
+[dependencies]
+
+[profile.release]
+strip = true
+lto = true
